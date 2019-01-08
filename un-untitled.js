@@ -13,7 +13,7 @@ module.exports = {
     }
     un_observer = new MutationObserver(callback)
     un_observer.observe(window_title, {childList: true})
-    editor = atom.workspace.getActiveTextEditor()
+    editor = atom.workspace.getActivePaneItem()
     var parent = atom.views.getView(editor).parentElement.parentElement
     var return_to = parent.getElementsByClassName('tab-bar')[0].getElementsByClassName('active')[0]
     for (tab of document.getElementsByClassName('modified')) {
