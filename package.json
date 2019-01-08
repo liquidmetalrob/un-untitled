@@ -1,7 +1,7 @@
 {
   "name": "un-untitled",
   "main": "./un-untitled",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "At Atom package that changes the title on unsaved tabs from 'untitled' to the first few words of the file",
   "keywords": [],
   "repository": "https://github.com/liquidmetalrob/un-untitled",
